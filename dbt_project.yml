@@ -46,6 +46,9 @@ vars:
     QA_USER:
       database: QA
       raw_data_schema: JAFFLE_SHOP
+    PROD_USER:
+      database: PROD
+      raw_data_schema: JAFFLE_SHOP
 
 # In this example config, we tell dbt to build all models in the example/ directory
 # as tables. These settings can be overridden in the individual model files
