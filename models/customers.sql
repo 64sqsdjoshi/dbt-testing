@@ -41,4 +41,6 @@ final as (
 
 )
 
+
 select * from final limit 50
+
